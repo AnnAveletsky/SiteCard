@@ -30,4 +30,46 @@ namespace SiteCardWebApplication.Models
             return new ApplicationDbContext();
         }
     }
+    public class AppDbInitializer : DropCreateDatabaseAlways<ApplicationDbContext>
+    {
+        protected override void Seed(ApplicationDbContext context)
+        {
+            var userManager = new ApplicationUserManager(new UserStore<ApplicationUser>(context));
+
+            var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(context));
+
+            // создаем две роли
+            var role1 = new IdentityRole { Name = "admin" };
+            var role2 = new IdentityRole { Name = "user" };
+
+            // добавляем роли в бд
+            roleManager.Create(role1);
+            roleManager.Create(role2);
+
+            // создаем пользователей
+            var admin1 = new ApplicationUser { Email = "annserba94@gmail.com", UserName = "annserba94@gmail.com" };
+            string password1 = "8255Ann_";
+            var result1 = userManager.Create(admin1, password1);
+            var admin2 = new ApplicationUser { Email = "ixus.van.axel@gmail.com", UserName = "ixus.van.axel@gmail.com" };
+            string password2 = "8255Ann_";
+            var result2 = userManager.Create(admin2, password2);
+
+            // если создание пользователя прошло успешно
+            if (result1.Succeeded)
+            {
+                // добавляем для пользователя роль
+                userManager.AddToRole(admin1.Id, role1.Name);
+                userManager.AddToRole(admin1.Id, role2.Name);
+            }
+            if (result2.Succeeded)
+            {
+                // добавляем для пользователя роль
+                userManager.AddToRole(admin2.Id, role1.Name);
+                userManager.AddToRole(admin2.Id, role2.Name);
+            }
+
+            base.Seed(context);
+        }
+    }
+
 }
