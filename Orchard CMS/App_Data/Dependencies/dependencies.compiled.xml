@@ -1,18 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
   <Dependency>
-    <ExtensionId>Bootstrap</ExtensionId>
-    <LoaderName>DynamicExtensionLoader</LoaderName>
-    <VirtualPath>~/Themes/Bootstrap/Bootstrap.csproj</VirtualPath>
-    <Hash>35642b22d78eebd1</Hash>
-  </Dependency>
-  <Dependency>
-    <ExtensionId>Contoso</ExtensionId>
-    <LoaderName>DynamicExtensionLoader</LoaderName>
-    <VirtualPath>~/Themes/Contoso/Contoso.csproj</VirtualPath>
-    <Hash>9f3d73bac4706b89</Hash>
-  </Dependency>
-  <Dependency>
     <ExtensionId>Contrib.GoogleAnalytics</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Contrib.GoogleAnalytics/Contrib.GoogleAnalytics.csproj</VirtualPath>
@@ -25,10 +13,28 @@
     <Hash>922d5d6c31fa5204</Hash>
   </Dependency>
   <Dependency>
+    <ExtensionId>M33.SystemEditor</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/M33.SystemEditor/M33.SystemEditor.csproj</VirtualPath>
+    <Hash>901d4e3d74f755fd</Hash>
+  </Dependency>
+  <Dependency>
     <ExtensionId>Markdown</ExtensionId>
     <LoaderName>PrecompiledExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Markdown/bin/Markdown.dll</VirtualPath>
     <Hash>dba98087f6585137</Hash>
+  </Dependency>
+  <Dependency>
+    <ExtensionId>Mello.ImageGallery</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Mello.ImageGallery/Mello.ImageGallery.csproj</VirtualPath>
+    <Hash>ef8b1b1d49e99537</Hash>
+  </Dependency>
+  <Dependency>
+    <ExtensionId>oforms</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/oforms/oforms.csproj</VirtualPath>
+    <Hash>d3de28d8eb7279f3</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Orchard.Alias</ExtensionId>
@@ -388,7 +394,7 @@
     <ExtensionId>TheBootstrapTheme</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Themes/TheBootstrapTheme/TheBootstrapTheme.csproj</VirtualPath>
-    <Hash>490c9f537c0f64c0</Hash>
+    <Hash>490ca00861e2d56d</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>TinyMce</ExtensionId>

@@ -1,0 +1,66 @@
+2015-12-29 00:16:46,651 [7] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+ http://localhost:44204/
+System.Reflection.TargetInvocationException: јдресат вызова создал исключение. ---> System.Reflection.TargetInvocationException: јдресат вызова создал исключение. ---> System.InvalidOperationException: A 'script' named 'Site.js' could not be found.
+   в Orchard.UI.Resources.ResourceManager.BuildRequiredResources(String resourceType) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\UI\Resources\ResourceManager.cs:строка 265
+   в Orchard.Core.Shapes.CoreShapes.WriteResources(Object Display, TextWriter Output, String resourceType, Nullable`1 includeLocation, Nullable`1 excludeLocation) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard.Web\Core\Shapes\CoreShapes.cs:строка 410
+   в CallSite.Target(Closure , CallSite , CoreShapes , Object , TextWriter , String , ResourceLocation , Object )
+   в Orchard.Core.Shapes.CoreShapes.HeadScripts(Object Display, TextWriter Output) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard.Web\Core\Shapes\CoreShapes.cs:строка 335
+   ---  онец трассировки внутреннего стека исключений ---
+   в System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   в System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   в System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   в Orchard.DisplayManagement.Descriptors.ShapeAttributeStrategy.ShapeAttributeBindingStrategy.PerformInvoke(DisplayContext displayContext, MethodInfo methodInfo, Object serviceInstance) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Descriptors\ShapeAttributeStrategy\ShapeAttributeBindingStrategy.cs:строка 64
+   в Orchard.DisplayManagement.Descriptors.ShapeAttributeStrategy.ShapeAttributeBindingStrategy.<>c__DisplayClass4.<CreateDelegate>b__3(DisplayContext context) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Descriptors\ShapeAttributeStrategy\ShapeAttributeBindingStrategy.cs:строка 55
+   в Orchard.DisplayManagement.Descriptors.ShapeAlterationBuilder.<>c__DisplayClass3.<>c__DisplayClass5.<BoundAs>b__2(DisplayContext displayContext) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Descriptors\ShapeAlterationBuilder.cs:строка 56
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Process(ShapeBinding shapeBinding, IShape shape, DisplayContext context) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 201
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Execute(DisplayContext context) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 92
+   в Orchard.DisplayManagement.Implementation.DisplayHelper.ShapeExecute(Object shape) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:строка 86
+   в Orchard.DisplayManagement.Implementation.DisplayHelper.Invoke(String name, INamedEnumerable`1 parameters) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:строка 43
+   в Orchard.DisplayManagement.Implementation.DisplayHelper.TryInvoke(InvokeBinder binder, Object[] args, Object& result) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:строка 29
+   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Orchard.Core.Shapes.CoreShapes.DocumentZone(Object Display, Object Shape, TextWriter Output) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard.Web\Core\Shapes\CoreShapes.cs:строка 292
+   ---  онец трассировки внутреннего стека исключений ---
+   в System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   в System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   в System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   в Orchard.DisplayManagement.Descriptors.ShapeAttributeStrategy.ShapeAttributeBindingStrategy.PerformInvoke(DisplayContext displayContext, MethodInfo methodInfo, Object serviceInstance) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Descriptors\ShapeAttributeStrategy\ShapeAttributeBindingStrategy.cs:строка 64
+   в Orchard.DisplayManagement.Descriptors.ShapeAttributeStrategy.ShapeAttributeBindingStrategy.<>c__DisplayClass4.<CreateDelegate>b__3(DisplayContext context) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Descriptors\ShapeAttributeStrategy\ShapeAttributeBindingStrategy.cs:строка 55
+   в Orchard.DisplayManagement.Descriptors.ShapeAlterationBuilder.<>c__DisplayClass3.<>c__DisplayClass5.<BoundAs>b__2(DisplayContext displayContext) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Descriptors\ShapeAlterationBuilder.cs:строка 56
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Process(ShapeBinding shapeBinding, IShape shape, DisplayContext context) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 201
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Execute(DisplayContext context) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 92
+   в Orchard.DisplayManagement.Implementation.DisplayHelper.ShapeExecute(Object shape) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:строка 86
+   в Orchard.DisplayManagement.Implementation.DisplayHelper.Invoke(String name, INamedEnumerable`1 parameters) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:строка 43
+   в Orchard.DisplayManagement.Implementation.DisplayHelper.TryInvoke(InvokeBinder binder, Object[] args, Object& result) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:строка 29
+   в CallSite.Target(Closure , CallSite , Object , Object )
+   в ASP._Page_Core_Shapes_Views_Document_cshtml.Execute() в c:\Users\DNS\Documents\GitHub\SiteCard\Orchard CMS\Core\Shapes\Views\Document.cshtml:строка 18
+   в System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   в System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   в System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   в System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   в System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   в System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   в System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   в Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy.ShapeTemplateBindingStrategy.Render(ShapeDescriptor shapeDescriptor, DisplayContext displayContext, HarvestShapeInfo harvestShapeInfo, HarvestShapeHit harvestShapeHit) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Descriptors\ShapeTemplateStrategy\ShapeTemplateBindingStrategy.cs:строка 146
+   в Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy.ShapeTemplateBindingStrategy.<>c__DisplayClass26.<>c__DisplayClass28.<Discover>b__15(DisplayContext displayContext) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Descriptors\ShapeTemplateStrategy\ShapeTemplateBindingStrategy.cs:строка 133
+   в Orchard.DisplayManagement.Descriptors.ShapeAlterationBuilder.<>c__DisplayClass3.<>c__DisplayClass5.<BoundAs>b__2(DisplayContext displayContext) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Descriptors\ShapeAlterationBuilder.cs:строка 56
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Process(ShapeBinding shapeBinding, IShape shape, DisplayContext context) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 201
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Execute(DisplayContext context) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 106
+   в Orchard.DisplayManagement.Implementation.DisplayHelper.ShapeExecute(Object shape) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:строка 86
+   в Orchard.DisplayManagement.Implementation.DisplayHelper.Invoke(String name, INamedEnumerable`1 parameters) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:строка 43
+   в Orchard.DisplayManagement.Implementation.DisplayHelper.TryInvoke(InvokeBinder binder, Object[] args, Object& result) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:строка 29
+   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Orchard.Mvc.ViewEngines.ThemeAwareness.LayoutAwareViewEngine.<>c__DisplayClass7.<FindView>b__5(ViewContext viewContext, TextWriter writer, IViewDataContainer viewDataContainer) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\Mvc\ViewEngines\ThemeAwareness\LayoutAwareViewEngine.cs:строка 63
+   в Orchard.Mvc.ViewEngines.ThemeAwareness.LayoutAwareViewEngine.LayoutView.Render(ViewContext viewContext, TextWriter writer) в z:\Builds\work\9f6cd39ff0f68f41\src\Orchard\Mvc\ViewEngines\ThemeAwareness\LayoutAwareViewEngine.cs:строка 90
+   в System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   в System.Web.Mvc.ControllerAc
