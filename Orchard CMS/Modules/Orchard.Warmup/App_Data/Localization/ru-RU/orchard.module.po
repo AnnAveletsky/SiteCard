@@ -1,0 +1,134 @@
+#. "Name"
+#: "~/Modules/Orchard.Warmup/Module.txt"
+msgctxt "~/Modules/Orchard.Warmup/Module.txt"
+msgid "Warmup"
+msgstr ""
+
+#. "Author"
+#: "~/Modules/Orchard.Warmup/Module.txt"
+msgctxt "~/Modules/Orchard.Warmup/Module.txt"
+msgid "The Orchard Team"
+msgstr "Команда Orchard"
+
+#. "Website"
+#: "~/Modules/Orchard.Warmup/Module.txt"
+msgctxt "~/Modules/Orchard.Warmup/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#. "Description"
+#: "~/Modules/Orchard.Warmup/Module.txt"
+msgctxt "~/Modules/Orchard.Warmup/Module.txt"
+msgid "Provides a mecanism to generate a static version of pages for being used during application warm up."
+msgstr "Предоставляет механизм генерации статической версии страниц для использования на время «прогрева» приложения."
+
+#: "Orchard.Warmup.AdminMenu"
+msgctxt "Orchard.Warmup.AdminMenu"
+msgid "Settings"
+msgstr "Параметры"
+
+#: "Orchard.Warmup.AdminMenu"
+msgctxt "Orchard.Warmup.AdminMenu"
+msgid "Performance"
+msgstr "Производительность"
+
+#: "Orchard.Warmup.AdminMenu"
+msgctxt "Orchard.Warmup.AdminMenu"
+msgid "Warmup"
+msgstr "Прогрев"
+
+#: "Orchard.Warmup.Commands.WarmupCommands"
+msgctxt "Orchard.Warmup.Commands.WarmupCommands"
+msgid "Generation finished"
+msgstr ""
+
+#. "Not authorized to manage settings"
+msgctxt "Orchard.Warmup.Controllers.AdminController"
+msgid "Not authorized to manage settings"
+msgstr ""
+
+#: "Orchard.Warmup.Controllers.AdminController"
+msgctxt "Orchard.Warmup.Controllers.AdminController"
+msgid "\"{0}\" is an invalid warmup url."
+msgstr "\"{0}\" неправильный url адрес прогрева."
+
+#: "Orchard.Warmup.Controllers.AdminController"
+msgctxt "Orchard.Warmup.Controllers.AdminController"
+msgid "Delay must be greater than zero."
+msgstr "Задержка должна быть больше нуля."
+
+#: "Orchard.Warmup.Controllers.AdminController"
+msgctxt "Orchard.Warmup.Controllers.AdminController"
+msgid "Warmup updated successfully."
+msgstr "Прогрев успешно обновлен."
+
+#: "Orchard.Warmup.Services.SettingsBanner"
+msgctxt "Orchard.Warmup.Services.SettingsBanner"
+msgid "The Warmup feature needs the <a href=\"{0}\">Base Url site setting</a> to be set."
+msgstr ""
+
+#: "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgid "Performance"
+msgstr "Производительность"
+
+#: "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgid "The paths below will be requested using {0} as a base url. You can change the base url on the {1}. "
+msgstr "Путь ниже будет запрашиваться с использованием {0} в качестве базового адреса url. Вы можете поменять базовый адрес url на {1}. "
+
+#: "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgid "General Settings page"
+msgstr "Страница общих настроек"
+
+#: "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgid "This must be a set of relative paths, e.g., /, /About. Please ensure that you enter only one path per line."
+msgstr "Должны быть заданы относительные пути, т.е., /, /About. Пожалуйста, вводите каждый путь на отдельной строке."
+
+#: "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgid "Generate warmup pages periodically"
+msgstr "Генерировать страницы прогрева периодически"
+
+#: "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgid "Every"
+msgstr "Каждый"
+
+#: "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgid "minutes"
+msgstr "минут"
+
+#: "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgid "Generate warmup pages any time some content is published"
+msgstr "Генерировать страницы прогрева каждый раз когда публикуется контент"
+
+#. "Status"
+msgctxt "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgid "Status"
+msgstr "Статус"
+
+#: "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgid "This is a table of the reports in your application"
+msgstr "Это таблица отчетов вашего приложения"
+
+#: "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgid "Path"
+msgstr "Путь"
+
+#: "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgid "Date generated"
+msgstr "Дата генерации"
+
+#. "Save"
+msgctxt "~/Modules/Orchard.Warmup/Views/Admin/Index.cshtml"
+msgid "Save"
+msgstr "Сохранить"
+

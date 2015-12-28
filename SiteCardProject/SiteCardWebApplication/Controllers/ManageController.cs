@@ -7,6 +7,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using SiteCardWebApplication.Models;
+using System.Collections.Generic;
 
 namespace SiteCardWebApplication.Controllers
 {
@@ -49,6 +50,18 @@ namespace SiteCardWebApplication.Controllers
                 _userManager = value;
             }
         }
+        [Authorize]
+        public ActionResult Roles()
+        {
+            IList<string> roles = new List<string> { "Роль не определена" };
+            ApplicationUserManager userManager = HttpContext.GetOwinContext()
+                                                    .GetUserManager<ApplicationUserManager>();
+            ApplicationUser user = userManager.FindByEmail(User.Identity.Name);
+            if (user != null)
+                roles = userManager.GetRoles(user.Id);
+            return View("Roles",roles);
+        }
+
 
         //
         // GET: /Manage/Index

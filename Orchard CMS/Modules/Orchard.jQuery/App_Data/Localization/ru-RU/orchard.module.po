@@ -1,0 +1,164 @@
+#. "Name"
+#: "~/Modules/Orchard.jQuery/Module.txt"
+msgctxt "~/Modules/Orchard.jQuery/Module.txt"
+msgid "jQuery"
+msgstr "jQuery"
+
+#. "Author"
+#: "~/Modules/Orchard.jQuery/Module.txt"
+msgctxt "~/Modules/Orchard.jQuery/Module.txt"
+msgid "The Orchard Team"
+msgstr "Команда Orchard"
+
+#. "Website"
+#: "~/Modules/Orchard.jQuery/Module.txt"
+msgctxt "~/Modules/Orchard.jQuery/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#. "Description"
+#: "~/Modules/Orchard.jQuery/Module.txt"
+msgctxt "~/Modules/Orchard.jQuery/Module.txt"
+msgid "The jQuery module contains the jQuery and related script libraries."
+msgstr "Модуль jQuery содержит jQuery и связанные скриптовые библиотеки."
+
+#: "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgid "Prev"
+msgstr "Пред"
+
+#: "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgid "Show the previous month"
+msgstr "Показать предыдущий месяц"
+
+#: "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgid "<<"
+msgstr "<<"
+
+#: "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgid "Show the previous year"
+msgstr "Показать предыдущий год"
+
+#: "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgid "Next"
+msgstr "След"
+
+#: "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgid "Show the next month"
+msgstr "Показать следующий месяц"
+
+#: "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgid ">>"
+msgstr ">>"
+
+#: "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgid "Show the next year"
+msgstr "Показать следующий год"
+
+#: "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgid "Current"
+msgstr ""
+
+#: "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgid "Show the current month"
+msgstr "Показать текущий месяц"
+
+#: "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgid "Today"
+msgstr "Сегодня"
+
+#: "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgid "Show today's month"
+msgstr "Показать текущий месяц"
+
+#: "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgid "Clear"
+msgstr "Очистить"
+
+#: "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgid "Clear the date field"
+msgstr "Очистить поле даты"
+
+#: "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgid "Done"
+msgstr "Готово"
+
+#: "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgid "Close the datepicker"
+msgstr ""
+
+#: "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgid "Change the year"
+msgstr "Изменить год"
+
+#: "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgid "Change the month"
+msgstr "Измененить месяц"
+
+#: "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgid "Wk"
+msgstr ""
+
+#: "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgid "Week of the year"
+msgstr "Неделя года"
+
+#: "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/CalendarsPickerLocalization.cshtml"
+msgid "Select a date"
+msgstr "Выберите дату"
+
+#: "~/Modules/Orchard.jQuery/Views/TimeEntryLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/TimeEntryLocalization.cshtml"
+msgid "Now"
+msgstr "Сейчас"
+
+#: "~/Modules/Orchard.jQuery/Views/TimeEntryLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/TimeEntryLocalization.cshtml"
+msgid "Previous field"
+msgstr "Предыдущее поле"
+
+#: "~/Modules/Orchard.jQuery/Views/TimeEntryLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/TimeEntryLocalization.cshtml"
+msgid "Next field"
+msgstr "Следующее поле"
+
+#: "~/Modules/Orchard.jQuery/Views/TimeEntryLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/TimeEntryLocalization.cshtml"
+msgid "Increment"
+msgstr ""
+
+#: "~/Modules/Orchard.jQuery/Views/TimeEntryLocalization.cshtml"
+msgctxt "~/Modules/Orchard.jQuery/Views/TimeEntryLocalization.cshtml"
+msgid "Decrement"
+msgstr ""
+
+#. "Date"
+msgctxt "~/Modules/Orchard.jQuery/Views/EditorTemplates/DateTimeEditor.cshtml"
+msgid "Date"
+msgstr "Дата"
+
+#. "Time"
+msgctxt "~/Modules/Orchard.jQuery/Views/EditorTemplates/DateTimeEditor.cshtml"
+msgid "Time"
+msgstr "Время"
+

@@ -1,0 +1,24 @@
+#. "Name"
+#: "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgctxt "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgid "DLR Scripting"
+msgstr ""
+
+#. "Author"
+#: "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgctxt "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgid "The Orchard Team"
+msgstr "Команда Orchard"
+
+#. "Website"
+#: "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgctxt "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgid "http://orchardproject.net"
+msgstr ""
+
+#. "Description"
+#: "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgctxt "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgid "The DLR scripting module enables the possibility to execute scripts using the DLR."
+msgstr "Модуль сценариев DLR позволяет выполнять сценарии с использованием DLR."
+

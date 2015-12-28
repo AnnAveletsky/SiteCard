@@ -1,0 +1,202 @@
+#. "Name"
+#: "~/Modules/Orchard.ContentPermissions/Module.txt"
+msgctxt "~/Modules/Orchard.ContentPermissions/Module.txt"
+msgid "Orchard.ContentPermissions"
+msgstr ""
+
+#. "Author"
+#: "~/Modules/Orchard.ContentPermissions/Module.txt"
+msgctxt "~/Modules/Orchard.ContentPermissions/Module.txt"
+msgid "Chris Pyle, S�bastien Ros"
+msgstr ""
+
+#. "Website"
+#: "~/Modules/Orchard.ContentPermissions/Module.txt"
+msgctxt "~/Modules/Orchard.ContentPermissions/Module.txt"
+msgid "http://orchardproject.net"
+msgstr ""
+
+#. "Description"
+#. "Orchard.ContentPermissions.Description"
+#: "~/Modules/Orchard.ContentPermissions/Module.txt"
+msgctxt "~/Modules/Orchard.ContentPermissions/Module.txt"
+msgid "Allows item-level front end view permissions."
+msgstr ""
+
+#. "Orchard.ContentPermissions.Name"
+#: "~/Modules/Orchard.ContentPermissions/Module.txt"
+msgctxt "~/Modules/Orchard.ContentPermissions/Module.txt"
+msgid "Content Item Permissions"
+msgstr "Разрешения элемента содержимого"
+
+#. "Orchard.ContentPermissions.Category"
+#: "~/Modules/Orchard.ContentPermissions/Module.txt"
+msgctxt "~/Modules/Orchard.ContentPermissions/Module.txt"
+msgid "Security"
+msgstr "Безопасноть"
+
+#: "Orchard.ContentPermissions.Drivers.ContentPermissionsPartDriver"
+msgctxt "Orchard.ContentPermissions.Drivers.ContentPermissionsPartDriver"
+msgid "Could not update permissions"
+msgstr ""
+
+#: "Orchard.ContentPermissions.Services.DynamicPermissions"
+msgctxt "Orchard.ContentPermissions.Services.DynamicPermissions"
+msgid "{0} - {1}"
+msgstr ""
+
+#. "Permissions applied"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/Parts.ContentPermissions.SummaryAdmin.cshtml"
+msgid "Permissions applied"
+msgstr ""
+
+#: "~/Modules/Orchard.ContentPermissions/Views/Parts.ContentPermissions.SummaryAdmin.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/Parts.ContentPermissions.SummaryAdmin.cshtml"
+msgid "Protected"
+msgstr "Защищенный"
+
+#: "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgid "Those permissions will be applied by default to any content item of this type. Users with sufficient permissions can change them for each content item."
+msgstr ""
+
+#. "Role"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgid "Role"
+msgstr "Роль"
+
+#: "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgid "View any content"
+msgstr "Просмотр любого содержимого"
+
+#: "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgid "Edit any content"
+msgstr "Редактирование любого содержимого"
+
+#: "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgid "Publish any content"
+msgstr "Публикация любого содержимого"
+
+#: "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgid "Delete any content"
+msgstr "Удаление любого содержимого"
+
+#: "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgid "Preview any content"
+msgstr ""
+
+#: "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgid "View own content"
+msgstr "Просмотр собственного содержимого"
+
+#: "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgid "Edit own content"
+msgstr "Редактирование собственного содержимого"
+
+#: "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgid "Publish own content"
+msgstr "Публикация собственного содержимого"
+
+#: "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgid "Delete own content"
+msgstr "Удаление собственного содержимого"
+
+#: "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgid "Preview own content"
+msgstr ""
+
+#: "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgid "Only show those roles in the editor:"
+msgstr "Только показывать эти роли в редакторе:"
+
+#: "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/ContentPermissionsPartViewModel.cshtml"
+msgid "Uncheck the roles for which you don't want the editor to change the permissions for."
+msgstr "Отключите роли, для которых вы не разрешаете изменений разрешений редактором."
+
+#: "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/SecurableContentItemsSettingsViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/SecurableContentItemsSettingsViewModel.cshtml"
+msgid "Securable Content Items"
+msgstr ""
+
+#: "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/SecurableContentItemsSettingsViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/DefinitionTemplates/SecurableContentItemsSettingsViewModel.cshtml"
+msgid "Determines if an instance of this content type can have custom permissions."
+msgstr ""
+
+#: "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgid "Enable Content Item access control"
+msgstr ""
+
+#: "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgid "Check to define custom permissions for this content item."
+msgstr "Отметить для определения пользовательского разрешения для этого элемента содержимого."
+
+#. "Role"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgid "Role"
+msgstr "Роль"
+
+#: "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgid "View this item"
+msgstr "Просмотр этого элемента"
+
+#: "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgid "Edit this item"
+msgstr "Редактирование этого элемента"
+
+#: "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgid "Publish this item"
+msgstr "Публикация этого элемента"
+
+#: "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgid "Delete this item"
+msgstr "Удаление этого элемента"
+
+#: "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgid "Preview this item"
+msgstr ""
+
+#: "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgid "View own"
+msgstr "Просмотр собственного"
+
+#: "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgid "Edit own"
+msgstr "Редактирование собственного"
+
+#: "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgid "Publish own"
+msgstr "Публикация собственного"
+
+#: "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgid "Delete own"
+msgstr "Удаление собственного"
+
+#: "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgctxt "~/Modules/Orchard.ContentPermissions/Views/EditorTemplates/Parts.ContentPermissions.cshtml"
+msgid "Preview own"
+msgstr ""
+

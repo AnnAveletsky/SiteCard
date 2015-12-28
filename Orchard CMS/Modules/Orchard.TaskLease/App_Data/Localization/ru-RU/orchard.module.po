@@ -1,0 +1,24 @@
+#. "Name"
+#: "~/Modules/Orchard.TaskLease/Module.txt"
+msgctxt "~/Modules/Orchard.TaskLease/Module.txt"
+msgid "Task Lease"
+msgstr "Задача аренды"
+
+#. "Author"
+#: "~/Modules/Orchard.TaskLease/Module.txt"
+msgctxt "~/Modules/Orchard.TaskLease/Module.txt"
+msgid "The Orchard Team"
+msgstr "Команда Orchard"
+
+#. "Website"
+#: "~/Modules/Orchard.TaskLease/Module.txt"
+msgctxt "~/Modules/Orchard.TaskLease/Module.txt"
+msgid "http://orchardtasklease.codeplex.com"
+msgstr "http://orchardtasklease.codeplex.com"
+
+#. "Description"
+#: "~/Modules/Orchard.TaskLease/Module.txt"
+msgctxt "~/Modules/Orchard.TaskLease/Module.txt"
+msgid "Provides services to synchronize tasks in a farm environment"
+msgstr "Поддерживает сервисы по синхронизации задач в фермовом окружении"
+

@@ -1,0 +1,184 @@
+#. "Name"
+#: "~/Modules/Orchard.ImportExport/Module.txt"
+msgctxt "~/Modules/Orchard.ImportExport/Module.txt"
+msgid "Import Export"
+msgstr ""
+
+#. "Author"
+#: "~/Modules/Orchard.ImportExport/Module.txt"
+msgctxt "~/Modules/Orchard.ImportExport/Module.txt"
+msgid "The Orchard Team"
+msgstr "Команда Orchard"
+
+#. "Website"
+#: "~/Modules/Orchard.ImportExport/Module.txt"
+msgctxt "~/Modules/Orchard.ImportExport/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#. "Description"
+#: "~/Modules/Orchard.ImportExport/Module.txt"
+msgctxt "~/Modules/Orchard.ImportExport/Module.txt"
+msgid "Provides content item data import and export capability."
+msgstr "Предоставляет функционал импорта и экспорта данных элементов контента."
+
+#: "Orchard.ImportExport.AdminMenu"
+msgctxt "Orchard.ImportExport.AdminMenu"
+msgid "Import/Export"
+msgstr "Импорт/Экспорт"
+
+#: "Orchard.ImportExport.AdminMenu"
+msgctxt "Orchard.ImportExport.AdminMenu"
+msgid "Import"
+msgstr "Импорт"
+
+#: "Orchard.ImportExport.AdminMenu"
+msgctxt "Orchard.ImportExport.AdminMenu"
+msgid "Export"
+msgstr "Экспорт"
+
+#: "Orchard.ImportExport.Commands.ImportExportCommands"
+msgctxt "Orchard.ImportExport.Commands.ImportExportCommands"
+msgid "Invalid file path"
+msgstr "Неправильный путь к файлу"
+
+#: "Orchard.ImportExport.Commands.ImportExportCommands"
+msgctxt "Orchard.ImportExport.Commands.ImportExportCommands"
+msgid "File not found."
+msgstr "Файл не найден."
+
+#: "Orchard.ImportExport.Commands.ImportExportCommands"
+msgctxt "Orchard.ImportExport.Commands.ImportExportCommands"
+msgid "Import running..."
+msgstr "Импорт выполняется..."
+
+#: "Orchard.ImportExport.Controllers.AdminController"
+msgctxt "Orchard.ImportExport.Controllers.AdminController"
+msgid "Not allowed to import."
+msgstr "Не допущен к импорту."
+
+#. "Please choose a recipe file to import."
+msgctxt "Orchard.ImportExport.Controllers.AdminController"
+msgid "Please choose a recipe file to import."
+msgstr "Пожалуйста, выберите файл для импорта"
+
+#: "Orchard.ImportExport.Controllers.AdminController"
+msgctxt "Orchard.ImportExport.Controllers.AdminController"
+msgid "Your recipe has been imported."
+msgstr "Ваш файл импортирован."
+
+#: "Orchard.ImportExport.Controllers.AdminController"
+msgctxt "Orchard.ImportExport.Controllers.AdminController"
+msgid "Not allowed to export."
+msgstr "Не допущен к экспорту."
+
+#. "Export"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgid "Export"
+msgstr "Экспорт"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgid "Choose the types to include in the export file:"
+msgstr "Выберите типы для включения в экспортируемый файл:"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgid "Choose what to save for these types:"
+msgstr "Выберите что сохранять для этих типов:"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgid "Metadata"
+msgstr "Метаданные"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgid "Metadata is the definition of your content types: what parts and fields they have, with what settings."
+msgstr "Метаданные — это определение ваших типов контента: какие имеются части и поля с их настройками."
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgid "Data"
+msgstr "Данные"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgid "Data is the actual content of your site."
+msgstr "Данные — это непосредственный контент вашего сайта."
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgid "Version History"
+msgstr "История версий"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgid "Only Published Versions"
+msgstr "Только опубликованные версии"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgid "Only Drafts"
+msgstr "Только черновики"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgid "Site Settings"
+msgstr "Установки сайта"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgid "Please verify that you are not exporting confidential information, such as passwords or application keys."
+msgstr "Пожалуйста, убедитесь не экспортируется что конфиденциальная информация, такая как пароли или ключи приложения."
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgid "Choose the custom steps to execute in the export file:"
+msgstr "Выберите пользовательские шаги для выполнения в экспортируемом файле:"
+
+#. "Import"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/Import.cshtml"
+msgid "Import"
+msgstr "Импорт"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/Import.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/Import.cshtml"
+msgid "Choose a recipe file to import. Please consider {0} or backing up your data first."
+msgstr "Выберите файл для импорта. Пожалуйста, сначале обеспечьте {0} или резервное копирование ваших данных."
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/Import.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/Import.cshtml"
+msgid "exporting"
+msgstr "экспорт"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/Import.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/Import.cshtml"
+msgid "Recipe File:"
+msgstr "Файл:"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgid "Import Result"
+msgstr ""
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgid "Status"
+msgstr "Статус"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgid "These are messages logged during the import process"
+msgstr "Сообщения, зарегистрированные во время процесса импорта"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgid "Message"
+msgstr "Сообщение"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgid "Close"
+msgstr "Закрыть"
+
