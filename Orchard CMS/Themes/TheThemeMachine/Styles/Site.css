@@ -1,7 +1,61 @@
-html, body {
+html {
+    background: #E9E1E7;
+    padding: 30px;
 }
 
 body {
-  width: 800px;
+  max-width: 800px;
   margin: auto;
+  padding: 0px;
+  background: #fff;
+  border-radius:6px; 
+-webkit-border-radius:6px; 
+-moz-border-radius:5px; 
+-khtml-border-radius:10px;
+}
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+  margin: 0px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius:6px; 
+-webkit-border-radius:6px; 
+-moz-border-radius:5px; 
+-khtml-border-radius:10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #242B4B;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+}
+li {
+    border-right: 1px solid #fff;
+}
+
+li:last-child {
+    border-right: none;
 }

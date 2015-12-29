@@ -16,9 +16,12 @@
     Style.Include("bootstrap-theme.min.css");
     Style.Include("modern-business.css");
     Style.Include("Color.css");
+    Style.Include("AdminLTE.css");
+    
     Style.Include("Site.css");
     Script.Require("jQuery").AtFoot();
     Script.Include("bootstrap.min.js").AtFoot();
+    Script.Include("app.min.js").AtFoot();
     Script.Include("Site.js").AtFoot();
    
 
@@ -62,16 +65,17 @@
     var tag = Tag(Model, "div"); // using Tag so the layout div gets the classes, id and other attributes added to the Model
 }
 @tag.StartElement
+
 @if (Model.Header != null) {
-<header id="layout-header" class="group">
-    <div id="header">
+<header id="layout-header">
         @Zone(Model.Header)
-    </div>
 </header>
 }
 @if (Model.Navigation != null) {
-<div id="layout-navigation" class="group">
+<div id="layout-navigation">
+    <div id="navigation">
     @Zone(Model.Navigation)
+        </div>
 </div>
 }
 @if (Model.Featured != null) {
