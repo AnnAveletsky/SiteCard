@@ -1,10 +1,11 @@
 html {
-    background: #E9E1E7;
+    background-image: url("\\Media\\Default\\background\\background.jpg");
     padding: 30px;
 }
 
 body {
   max-width: 800px;
+  min-width: 345px;
   margin: auto;
   padding: 0px;
   background: #fff;
@@ -31,7 +32,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #242B4B;
+    background-color: #333;
 }
 
 li {
@@ -48,14 +49,5 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #fff;
-    text-decoration: none;
-    color: #000;
-}
-li {
-    border-right: 1px solid #fff;
-}
-
-li:last-child {
-    border-right: none;
+    background-color: #111;
 }
