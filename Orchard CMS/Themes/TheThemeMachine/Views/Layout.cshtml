@@ -19,8 +19,11 @@
     Style.Include("AdminLTE.min.css");
     Style.Include("_all-skins.min.css");
     Style.Include("./fonts/font-awesome/css/font-awesome.css");
-
     Style.Include("Site.css");
+    Style.Include("Menu.css");
+    Style.Include("Slider.css");
+    Style.Include("Previewbox.css");
+
     Script.Require("jQuery").AtFoot();
     Script.Include("bootstrap.min.js").AtFoot();
     Script.Include("app.min.js").AtFoot();
@@ -90,8 +93,8 @@
     @Zone(Model.BeforeMain)
 </div>
 }
-<div id="layout-main-container">
-<div id="layout-main" class="group">
+<div id="layout-main-container " class="box box-solid">
+<div id="layout-main" class="group box-body">
     @if (Model.AsideFirst != null) {
     <aside id="aside-first" class="aside-first group">
         @Zone(Model.AsideFirst)

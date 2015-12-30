@@ -12,15 +12,12 @@
     var tag = Tag(Model, "article");
 }
 @tag.StartElement
-    <header>
+    <header class="box-header">
         @Display(Model.Header)
-        @if (Model.Meta != null) {
-            <div class="metadata">
-                @Display(Model.Meta)
-            </div>
-        }
     </header>
+<div class="box-body">
     @Display(Model.Content)
+    </div>
     @if(Model.Footer != null) {
         <footer>
             @Display(Model.Footer)
