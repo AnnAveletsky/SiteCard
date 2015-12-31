@@ -1,3 +1,6 @@
+nav{
+    margin-bottom: 20px;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -7,7 +10,7 @@ nav ul {
 }
 
 nav li {
-    float: left;
+    float: right;
 }
 
 nav li a {

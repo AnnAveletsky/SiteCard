@@ -1,0 +1,17 @@
+#portfolio .page-header{
+    margin: 0px;
+    padding: 0px;
+}
+#portfolio header{
+    display: none;
+}
+#portfolio h1{
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+#portfolio img{
+    padding: 0px;
+    width: 100%;
+    height: auto;    
+}

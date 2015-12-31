@@ -1,0 +1,14 @@
+#services .page-header{
+    margin: 0px;
+    padding: 0px;
+}
+#services h1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+}
+#services img{
+    padding: 0px;
+    width: 100%;
+    height: auto; 
+}

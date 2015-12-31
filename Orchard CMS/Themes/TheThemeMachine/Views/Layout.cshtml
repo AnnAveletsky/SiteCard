@@ -15,20 +15,22 @@
     Style.Include("bootstrap.min.css");
     Style.Include("bootstrap-theme.min.css");
     Style.Include("modern-business.css");
-    Style.Include("Color.css");
     Style.Include("AdminLTE.min.css");
     Style.Include("_all-skins.min.css");
     Style.Include("./fonts/font-awesome/css/font-awesome.css");
     Style.Include("Site.css");
     Style.Include("Menu.css");
     Style.Include("Slider.css");
-    Style.Include("Previewbox.css");
+    Style.Include("Preview.css");
+    Style.Include("Blog.css");
+     Style.Include("Services.css");
+    Style.Include("Portfolio.css");
 
     Script.Require("jQuery").AtFoot();
     Script.Include("bootstrap.min.js").AtFoot();
     Script.Include("app.min.js").AtFoot();
     Script.Include("Site.js").AtFoot();
-   
+  
 
     /* Some useful shortcuts or settings
     ***************************************************************/
@@ -72,8 +74,10 @@
 @tag.StartElement
 
 @if (Model.Header != null) {
-<header id="layout-header">
+<header id="layout-header" class="box box-solid">
+    <div class="box-body">
         @Zone(Model.Header)
+        </div>
 </header>
 }
 @if (Model.Navigation != null) {
@@ -156,8 +160,8 @@
 </div>
 </div>
 }
-<div id="layout-footer" class="group">
-    <footer id="footer">
+<div id="layout-footer" class="group box box-solid">
+    <footer id="footer" class="box-body">
         <div id="footer-quad" class="group">
             @if (Model.FooterQuadFirst != null) {
             <div id="footer-quad-first">
