@@ -23,8 +23,9 @@
     Style.Include("Slider.css");
     Style.Include("Preview.css");
     Style.Include("Blog.css");
-     Style.Include("Services.css");
+    Style.Include("Services.css");
     Style.Include("Portfolio.css");
+    Style.Include("Footer.css");
 
     Script.Require("jQuery").AtFoot();
     Script.Include("bootstrap.min.js").AtFoot();
@@ -160,22 +161,28 @@
 </div>
 </div>
 }
-<div id="layout-footer" class="group box box-solid">
-    <footer id="footer" class="box-body">
-        <div id="footer-quad" class="group">
+<div id="layout-footer" class="group">
+    <footer id="footer" class="">
+        <div id="footer-quad" class="group row">
             @if (Model.FooterQuadFirst != null) {
-            <div id="footer-quad-first">
+            <div id="footer-quad-first" class="col-md-4">
+                <div class="footer-quad">
                 @Zone(Model.FooterQuadFirst)
+                    </div>
             </div>
             }
             @if (Model.FooterQuadSecond != null) {
-            <div id="footer-quad-second">
+            <div id="footer-quad-second" class="col-md-4">
+                <div class="footer-quad">
                 @Zone(Model.FooterQuadSecond)
+                     </div>
             </div>
             }
             @if (Model.FooterQuadThird != null) {
-            <div id="footer-quad-third">
+            <div id="footer-quad-third" class="col-md-4">
+                <div class="footer-quad">
                 @Zone(Model.FooterQuadThird)
+                     </div>
             </div>
             }
             @if (Model.FooterQuadFourth != null) {
@@ -186,7 +193,8 @@
         </div>
         @if(Model.Footer != null) {
         <div id="footer-sig" class="group">
-            @Zone(Model.Footer)
+             @Zone(Model.Footer) 
+            
         </div>
         }
     </footer>
