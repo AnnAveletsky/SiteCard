@@ -73,7 +73,7 @@ nav ul li:hover > ul {
     opacity: 1; 
     visibility: visible; 
     left: 0; 
-    max-height: 250px;
+    max-height: max-content;
 }
 nav ul > li:hover > ul { 
     list-style: none;
