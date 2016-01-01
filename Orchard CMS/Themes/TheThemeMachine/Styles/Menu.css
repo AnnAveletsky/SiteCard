@@ -47,8 +47,8 @@ nav ul li a {
 nav ul li a:hover,
 nav ul li:hover > a {
   list-style: none;
-	background: #930659;
-	color: #fff !important;
+	background: #fff;
+	color: #000 !important;
 }
 
 nav ul li ul {
@@ -90,4 +90,7 @@ nav ul li > ul  ul {
 nav ul li > ul li:hover > ul { 
     list-style: none;
     left: 100%; 
+}
+@media screen and (device-width: 600px){
+    
 }
