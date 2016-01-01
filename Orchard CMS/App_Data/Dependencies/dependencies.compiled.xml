@@ -4,13 +4,13 @@
     <ExtensionId>Contrib.GoogleAnalytics</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Contrib.GoogleAnalytics/Contrib.GoogleAnalytics.csproj</VirtualPath>
-    <Hash>d889b7070691a053</Hash>
+    <Hash>d889dc0140820c65</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Lucene</ExtensionId>
-    <LoaderName>PrecompiledExtensionLoader</LoaderName>
-    <VirtualPath>~/Modules/Lucene/bin/Lucene.dll</VirtualPath>
-    <Hash>922d5d6c31fa5204</Hash>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Lucene/Lucene.csproj</VirtualPath>
+    <Hash>fc12af53a9a0fabf</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>M33.SystemEditor</ExtensionId>
@@ -28,7 +28,7 @@
     <ExtensionId>Mello.ImageGallery</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Mello.ImageGallery/Mello.ImageGallery.csproj</VirtualPath>
-    <Hash>ef8b1b1d49e99537</Hash>
+    <Hash>ef8bc1a8352b65fd</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>oforms</ExtensionId>
@@ -74,9 +74,9 @@
   </Dependency>
   <Dependency>
     <ExtensionId>Orchard.Azure.MediaServices</ExtensionId>
-    <LoaderName>PrecompiledExtensionLoader</LoaderName>
-    <VirtualPath>~/Modules/Orchard.Azure.MediaServices/bin/Orchard.Azure.MediaServices.dll</VirtualPath>
-    <Hash>74a12376e3e1ad15</Hash>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Orchard.Azure.MediaServices/Orchard.Azure.MediaServices.csproj</VirtualPath>
+    <Hash>52c1056666af3c9f</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Orchard.Blogs</ExtensionId>
@@ -308,9 +308,9 @@
   </Dependency>
   <Dependency>
     <ExtensionId>Orchard.Search</ExtensionId>
-    <LoaderName>PrecompiledExtensionLoader</LoaderName>
-    <VirtualPath>~/Modules/Orchard.Search/bin/Orchard.Search.dll</VirtualPath>
-    <Hash>dbbaa0990ef2eb5b</Hash>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Orchard.Search/Orchard.Search.csproj</VirtualPath>
+    <Hash>21e2d14db0feee99</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Orchard.SecureSocketsLayer</ExtensionId>
@@ -344,9 +344,9 @@
   </Dependency>
   <Dependency>
     <ExtensionId>Orchard.Templates</ExtensionId>
-    <LoaderName>PrecompiledExtensionLoader</LoaderName>
-    <VirtualPath>~/Modules/Orchard.Templates/bin/Orchard.Templates.dll</VirtualPath>
-    <Hash>dbb1f09094b30045</Hash>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Orchard.Templates/Orchard.Templates.csproj</VirtualPath>
+    <Hash>57047025a634f325</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Orchard.Themes</ExtensionId>

@@ -1,0 +1,24 @@
+2016-01-01 19:24:42,863 [14] NHibernate.AdoNet.AbstractBatcher - (null) - Could not execute command: UPDATE Contrib_GoogleAnalytics_SettingsRecord SET Enable = @p0, Script = @p1 WHERE Id = @p2
+ (null)
+System.Data.SqlServerCe.SqlCeException (0x80004005): Столбец не может содержать пустые значения. [ Column name = Script,Table name = Contrib_GoogleAnalytics_SettingsRecord ]
+   в System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   в System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   в System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   в System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   в NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2016-01-01 19:24:42,905 [14] NHibernate.Util.ADOExceptionReporter - (null) - Столбец не может содержать пустые значения. [ Column name = Script,Table name = Contrib_GoogleAnalytics_SettingsRecord ]
+ (null)
+2016-01-01 19:24:42,906 [14] NHibernate.Event.Default.AbstractFlushingEventListener - (null) - Could not synchronize database state with session
+ (null)
+NHibernate.Exceptions.GenericADOException: could not update: [Contrib.GoogleAnalytics.Models.SettingsRecord#1][SQL: UPDATE Contrib_GoogleAnalytics_SettingsRecord SET Enable = ?, Script = ? WHERE Id = ?] ---> System.Data.SqlServerCe.SqlCeException: Столбец не может содержать пустые значения. [ Column name = Script,Table name = Contrib_GoogleAnalytics_SettingsRecord ]
+   в System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   в System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   в System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   в System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   в NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+   в NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   в NHibernate.Persister.Entity.AbstractEntityPersister.Update(Object id, Object[] fields, Object[] oldFields, Object rowId, Boolean[] includeProperty, Int32 j, Object oldVersion, Object obj, SqlCommandInfo sql, ISessionImplementor session)
+   --- Конец трассировки внутреннего стека исключений ---
+   в NHibernate.Persister.Entity.AbstractEntityPersister.Update(Object id, Object[] fields, Object[] oldFields, Object rowId, Boolean[] includeProperty, Int32 j, Object oldVersion, Object obj, SqlCommandInfo sql, ISessionImplementor session)
+   в NHibernate.Persister.Entity.AbstractEntityPersister.UpdateOrInsert(Object id, Object[] fields, Object[] oldFields, Object rowId, Boolean[] includeProperty, Int32 j, Object oldVersion, Object obj, SqlCommandInfo sql, ISessionImplementor session)
+   в NHibernate.Persister.Entity.AbstractEntityPersister.Update(Object id, Object[] fields, Int32[] dirtyFields, Boolean hasDirtyCollection, Object[] oldFields, Object oldVersion, Object obj, Object rowId, ISessionImple

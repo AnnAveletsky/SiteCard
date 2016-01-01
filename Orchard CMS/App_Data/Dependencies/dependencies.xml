@@ -38,8 +38,8 @@
   </Dependency>
   <Dependency>
     <ModuleName>Lucene</ModuleName>
-    <VirtualPath>~/Modules/Lucene/bin/Lucene.dll</VirtualPath>
-    <LoaderName>PrecompiledExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Lucene/Lucene.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
     <References>
       <Reference>
         <Name>Lucene.Net</Name>
@@ -425,8 +425,8 @@
   </Dependency>
   <Dependency>
     <ModuleName>Orchard.Azure.MediaServices</ModuleName>
-    <VirtualPath>~/Modules/Orchard.Azure.MediaServices/bin/Orchard.Azure.MediaServices.dll</VirtualPath>
-    <LoaderName>PrecompiledExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Orchard.Azure.MediaServices/Orchard.Azure.MediaServices.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
     <References>
       <Reference>
         <Name>HtmlAgilityPack</Name>
@@ -1156,8 +1156,8 @@
   </Dependency>
   <Dependency>
     <ModuleName>Orchard.Search</ModuleName>
-    <VirtualPath>~/Modules/Orchard.Search/bin/Orchard.Search.dll</VirtualPath>
-    <LoaderName>PrecompiledExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Orchard.Search/Orchard.Search.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
     <References>
       <Reference>
         <Name>Orchard.MediaLibrary</Name>
@@ -1233,8 +1233,8 @@
   </Dependency>
   <Dependency>
     <ModuleName>Orchard.Templates</ModuleName>
-    <VirtualPath>~/Modules/Orchard.Templates/bin/Orchard.Templates.dll</VirtualPath>
-    <LoaderName>PrecompiledExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Orchard.Templates/Orchard.Templates.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
     <References>
       <Reference>
         <Name>Orchard.Themes</Name>
