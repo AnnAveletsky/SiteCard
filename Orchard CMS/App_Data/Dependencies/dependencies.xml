@@ -1303,12 +1303,6 @@
     <References />
   </Dependency>
   <Dependency>
-    <ModuleName>TheBootstrapTheme</ModuleName>
-    <VirtualPath>~/Themes/TheBootstrapTheme/TheBootstrapTheme.csproj</VirtualPath>
-    <LoaderName>DynamicExtensionLoader</LoaderName>
-    <References />
-  </Dependency>
-  <Dependency>
     <ModuleName>TheThemeMachine</ModuleName>
     <VirtualPath>~/Theme/TheThemeMachine</VirtualPath>
     <LoaderName>RawThemeExtensionLoader</LoaderName>

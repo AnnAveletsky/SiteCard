@@ -391,12 +391,6 @@
     <Hash>9267cda6b6654852</Hash>
   </Dependency>
   <Dependency>
-    <ExtensionId>TheBootstrapTheme</ExtensionId>
-    <LoaderName>DynamicExtensionLoader</LoaderName>
-    <VirtualPath>~/Themes/TheBootstrapTheme/TheBootstrapTheme.csproj</VirtualPath>
-    <Hash>490ca00861e2d56d</Hash>
-  </Dependency>
-  <Dependency>
     <ExtensionId>TinyMce</ExtensionId>
     <LoaderName>PrecompiledExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/TinyMce/bin/TinyMce.dll</VirtualPath>
