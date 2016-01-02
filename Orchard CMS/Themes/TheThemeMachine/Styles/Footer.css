@@ -1,6 +1,6 @@
 footer{
     margin: 0px;
-    background: #000;
+    background: #333333;
     color: #fff;
     border-radius: 3px;  /* свойство для тех кто его поддерживает */
   -moz-border-radius: 3px;  /* для firefox */
@@ -14,4 +14,8 @@ footer{
 }
 .footer-quad header h1{
     font-size: 22px;
+}
+.footer-quad ul,.footer-quad li{
+    list-style: none;
+    padding: 0px;
 }

@@ -23,9 +23,19 @@ h1{
     padding: 0px;
     font-family: 'Lobster', sans-serif;
 }
+
 #layout-header{
     padding-left: 20px;
     padding-right: 20px;
     
 }
-
+#layout-header a{
+    color: #333333;
+}
+#content h1{
+    color: #333333;
+    margin-top: 10px;
+}
+#content .page-header{
+    margin-bottom: 0px;
+}
