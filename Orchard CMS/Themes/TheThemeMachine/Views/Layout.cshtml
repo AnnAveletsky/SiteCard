@@ -11,8 +11,60 @@
     ***************************************************************/
 
     SetMeta(httpEquiv: "X-UA-Compatible", content: "IE=edge,chrome=1");
-    Style.Include("//fonts.googleapis.com/css?family=Lobster&subset=latin");
+
+    <!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+	
+	<!-- Google Web Fonts
+	================================================== -->
+	<link href='http://fonts.googleapis.com/css?family=Anton|Muli:300,400,400italic,300italic|Oswald' rel='stylesheet' type='text/css'>
+	
+	<!-- CSS
+	================================================== -->
+	<!-- Base + Vendors CSS -->
     Style.Include("bootstrap.min.css");
+	Style.Include("fonts/font-awesome/css/font-awesome.css");
+	Style.Include("vendor/owl-carousel/owl.carousel.css");
+	Style.Include("vendor/owl-carousel/owl.theme.css");
+	Style.Include("vendor/magnific-popup/magnific-popup.css");
+	Style.Include("vendor/mediaelement/mediaelementplayer.css");
+	Style.Include("vendor/rs-plugin/css/settings.css");
+
+	<!-- Theme CSS-->
+	Style.Include("theme.css");
+	Style.Include("theme-elements.css");
+	Style.Include("animate.min.css");
+
+	<!-- Skin CSS -->
+	Style.Include("skins/red.css");
+
+	<!-- Custom CSS-->
+	Style.Include("custom.css");
+
+	<!-- Head Libs -->
+	Style.Include("vendor/modernizr.js");
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!--[if IE]>
+		<link rel="stylesheet" href="css/ie.css">
+	<![endif]-->
+	
+	<!-- Favicons
+	================================================== 
+	<link rel="shortcut icon" href="images\favicon.ico">
+	<link rel="apple-touch-icon" href="images\apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images\apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images\apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images\apple-touch-icon-144x144.png">-->
+
+    <!-- Old styles
+    ================================================== -->
+    Style.Include("//fonts.googleapis.com/css?family=Lobster&subset=latin");
     Style.Include("bootstrap-theme.min.css");
     Style.Include("modern-business.css");
     Style.Include("AdminLTE.min.css");
@@ -27,8 +79,34 @@
     Style.Include("Portfolio.css");
     Style.Include("Footer.css");
 
-    Script.Require("jQuery").AtFoot();
-    Script.Include("bootstrap.min.js").AtFoot();
+
+    <!-- Javascript Files
+	================================================== -->
+	Script.Include("vendor/jquery-1.11.0.min.js").AtFoot();
+	Script.Include("vendor/jquery-migrate-1.2.1.min.js").AtFoot();
+	Script.Include("vendor/bootstrap.min.js").AtFoot();
+	Script.Include("vendor/headhesive.min.js").AtFoot();
+	Script.Include("vendor/fhmm.js").AtFoot();
+	Script.Include("vendor/jquery.flickrfeed.js").AtFoot();
+	Script.Include("vendor/isotope/isotope.pkgd.min.js").AtFoot();
+	Script.Include("vendor/isotope/jquery.imagesloaded.min.js").AtFoot();
+	Script.Include("vendor/magnific-popup/jquery.magnific-popup.js").AtFoot();
+	Script.Include("vendor/owl-carousel/owl.carousel.min.js").AtFoot();
+	Script.Include("vendor/jquery.fitvids.js").AtFoot();
+	Script.Include("vendor/jquery.appear.js").AtFoot();
+	Script.Include("vendor/jquery.stellar.min.js").AtFoot();
+	Script.Include("vendor/snap.svg-min.js").AtFoot();
+	Script.Include("vendor/mediaelement/mediaelement-and-player.min.js").AtFoot();
+
+	Script.Include("js/custom.js").AtFoot();
+
+	<!-- jQuery REVOLUTION Slider  -->
+	Script.Include("vendor/rs-plugin/js/jquery.themepunch.tools.min.js").AtFoot();
+	Script.Include("vendor/rs-plugin/js/jquery.themepunch.revolution.min.js").AtFoot();
+
+    <!-- Old scripts -->
+    //Script.Require("jQuery").AtFoot();
+    //Script.Include("bootstrap.min.js").AtFoot();
     Script.Include("app.min.js").AtFoot();
     Script.Include("Site.js").AtFoot();
   
@@ -202,3 +280,14 @@
     </footer>
 </div>
 @tag.EndElement
+<script>
+    // Layout
+    $(".layout-boxed").click(function(e){
+        e.preventDefault();
+        // jQuery('.tp-banner').revredraw();
+        $('.style-switcher-layout li a').removeClass('active');
+        $(this).addClass('active');
+        $("body").removeClass("wide").addClass("boxed");
+        return false;
+    });
+</script> 
