@@ -17,19 +17,13 @@ nav{
   list-style: none;
   background: #242B4B; /* Old browsers */
   margin:auto ;
-  border-radius: 3px;  /* свойство для тех кто его поддерживает */
-  -moz-border-radius: 3px;  /* для firefox */
-  -webkit-border-radius: 3px;  /* для Safari и Chrome */
 }
 nav ul {
   list-style: none;
   background: #333333; /* Old browsers */
   width: auto;
-  margin: 20px auto;
+  margin: 0px auto;
   padding: 0px;
-  border-radius: 3px;  /* свойство для тех кто его поддерживает */
-  -moz-border-radius: 3px;  /* для firefox */
-  -webkit-border-radius: 3px;  /* для Safari и Chrome */
 }
 
 nav ul li {
